@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 14px; /* 1rem */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    background-color: cornsilk;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.fejlec{
+    background: url(../img/logo.jpg);
+    height: 200px;
+}
+h1{
+    padding-left: 200px;
+    padding-top: 5px;
+    font-size: 3.1rem;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+ul::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+li{
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    background: chocolate;
+    border: 1px solid chocolate;
+}
+a{
+    padding: 10px 0;
+    width: 100%;
+    display: inline-block;
+    color: rgb(250, 248, 248);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: cornsilk;
+
+}
+.kep1{
+    float: left;
+    margin: 5px 5px 0 0;
+}
+.kep2{
+    float: right;
+    margin: 0 0 0 5px;
+}
+.hasab{
+    float: left;
+}
+.lablec{
+    background: darkgoldenrod;
+    
+}
